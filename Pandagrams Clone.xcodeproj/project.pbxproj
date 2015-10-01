@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E81964651BBC76800037BE77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81964641BBC76800037BE77 /* AppDelegate.swift */; };
+		E81964671BBC76800037BE77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81964661BBC76800037BE77 /* ViewController.swift */; };
+		E819646A1BBC76800037BE77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81964681BBC76800037BE77 /* Main.storyboard */; };
+		E819646D1BBC76800037BE77 /* Pandagrams_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E819646B1BBC76800037BE77 /* Pandagrams_2.xcdatamodeld */; };
+		E819646F1BBC76800037BE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E819646E1BBC76800037BE77 /* Assets.xcassets */; };
+		E81964721BBC76800037BE77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81964701BBC76800037BE77 /* LaunchScreen.storyboard */; };
+		E819647D1BBC76800037BE77 /* Pandagrams_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819647C1BBC76800037BE77 /* Pandagrams_2Tests.swift */; };
+		E81964881BBC76800037BE77 /* Pandagrams_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81964871BBC76800037BE77 /* Pandagrams_2UITests.swift */; };
+		E81964961BBC77F80037BE77 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81964951BBC77F80037BE77 /* PhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E8D371FA1BBC9EE2009761A2 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D371F91BBC9EE2009761A2 /* star.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E81964791BBC76800037BE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E81964591BBC767F0037BE77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81964601BBC767F0037BE77;
+			remoteInfo = "Pandagrams 2";
+		};
+		E81964841BBC76800037BE77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E81964591BBC767F0037BE77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81964601BBC767F0037BE77;
+			remoteInfo = "Pandagrams 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E81964611BBC76800037BE77 /* Pandagrams Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pandagrams Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81964641BBC76800037BE77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E81964661BBC76800037BE77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E81964691BBC76800037BE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E819646C1BBC76800037BE77 /* Pandagrams_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pandagrams_2.xcdatamodel; sourceTree = "<group>"; };
+		E819646E1BBC76800037BE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E81964711BBC76800037BE77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E81964731BBC76800037BE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81964781BBC76800037BE77 /* Pandagrams Clone.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pandagrams Clone.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E819647C1BBC76800037BE77 /* Pandagrams_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pandagrams_2Tests.swift; sourceTree = "<group>"; };
+		E819647E1BBC76800037BE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81964831BBC76800037BE77 /* Pandagrams Clone.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pandagrams Clone.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81964871BBC76800037BE77 /* Pandagrams_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pandagrams_2UITests.swift; sourceTree = "<group>"; };
+		E81964891BBC76800037BE77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81964951BBC77F80037BE77 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		E8D371F91BBC9EE2009761A2 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E819645E1BBC767F0037BE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81964751BBC76800037BE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81964801BBC76800037BE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E81964581BBC767F0037BE77 = {
+			isa = PBXGroup;
+			children = (
+				E81964631BBC76800037BE77 /* Pandagrams 2 */,
+				E819647B1BBC76800037BE77 /* Pandagrams 2Tests */,
+				E81964861BBC76800037BE77 /* Pandagrams 2UITests */,
+				E81964621BBC76800037BE77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E81964621BBC76800037BE77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E81964611BBC76800037BE77 /* Pandagrams Clone.app */,
+				E81964781BBC76800037BE77 /* Pandagrams Clone.xctest */,
+				E81964831BBC76800037BE77 /* Pandagrams Clone.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E81964631BBC76800037BE77 /* Pandagrams 2 */ = {
+			isa = PBXGroup;
+			children = (
+				E81964641BBC76800037BE77 /* AppDelegate.swift */,
+				E81964661BBC76800037BE77 /* ViewController.swift */,
+				E81964681BBC76800037BE77 /* Main.storyboard */,
+				E81964951BBC77F80037BE77 /* PhotoViewController.swift */,
+				E819646E1BBC76800037BE77 /* Assets.xcassets */,
+				E8D371F91BBC9EE2009761A2 /* star.png */,
+				E81964701BBC76800037BE77 /* LaunchScreen.storyboard */,
+				E81964731BBC76800037BE77 /* Info.plist */,
+				E819646B1BBC76800037BE77 /* Pandagrams_2.xcdatamodeld */,
+			);
+			path = "Pandagrams 2";
+			sourceTree = "<group>";
+		};
+		E819647B1BBC76800037BE77 /* Pandagrams 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E819647C1BBC76800037BE77 /* Pandagrams_2Tests.swift */,
+				E819647E1BBC76800037BE77 /* Info.plist */,
+			);
+			path = "Pandagrams 2Tests";
+			sourceTree = "<group>";
+		};
+		E81964861BBC76800037BE77 /* Pandagrams 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E81964871BBC76800037BE77 /* Pandagrams_2UITests.swift */,
+				E81964891BBC76800037BE77 /* Info.plist */,
+			);
+			path = "Pandagrams 2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E81964601BBC767F0037BE77 /* Pandagrams Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E819648C1BBC76800037BE77 /* Build configuration list for PBXNativeTarget "Pandagrams Clone" */;
+			buildPhases = (
+				E819645D1BBC767F0037BE77 /* Sources */,
+				E819645E1BBC767F0037BE77 /* Frameworks */,
+				E819645F1BBC767F0037BE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pandagrams Clone";
+			productName = "Pandagrams 2";
+			productReference = E81964611BBC76800037BE77 /* Pandagrams Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E81964771BBC76800037BE77 /* Pandagrams CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E819648F1BBC76800037BE77 /* Build configuration list for PBXNativeTarget "Pandagrams CloneTests" */;
+			buildPhases = (
+				E81964741BBC76800037BE77 /* Sources */,
+				E81964751BBC76800037BE77 /* Frameworks */,
+				E81964761BBC76800037BE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E819647A1BBC76800037BE77 /* PBXTargetDependency */,
+			);
+			name = "Pandagrams CloneTests";
+			productName = "Pandagrams 2Tests";
+			productReference = E81964781BBC76800037BE77 /* Pandagrams Clone.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E81964821BBC76800037BE77 /* Pandagrams CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81964921BBC76800037BE77 /* Build configuration list for PBXNativeTarget "Pandagrams CloneUITests" */;
+			buildPhases = (
+				E819647F1BBC76800037BE77 /* Sources */,
+				E81964801BBC76800037BE77 /* Frameworks */,
+				E81964811BBC76800037BE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E81964851BBC76800037BE77 /* PBXTargetDependency */,
+			);
+			name = "Pandagrams CloneUITests";
+			productName = "Pandagrams 2UITests";
+			productReference = E81964831BBC76800037BE77 /* Pandagrams Clone.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E81964591BBC767F0037BE77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = NCh;
+				TargetAttributes = {
+					E81964601BBC767F0037BE77 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					E81964771BBC76800037BE77 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E81964601BBC767F0037BE77;
+					};
+					E81964821BBC76800037BE77 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E81964601BBC767F0037BE77;
+					};
+				};
+			};
+			buildConfigurationList = E819645C1BBC767F0037BE77 /* Build configuration list for PBXProject "Pandagrams Clone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E81964581BBC767F0037BE77;
+			productRefGroup = E81964621BBC76800037BE77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E81964601BBC767F0037BE77 /* Pandagrams Clone */,
+				E81964771BBC76800037BE77 /* Pandagrams CloneTests */,
+				E81964821BBC76800037BE77 /* Pandagrams CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E819645F1BBC767F0037BE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81964721BBC76800037BE77 /* LaunchScreen.storyboard in Resources */,
+				E8D371FA1BBC9EE2009761A2 /* star.png in Resources */,
+				E819646F1BBC76800037BE77 /* Assets.xcassets in Resources */,
+				E819646A1BBC76800037BE77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81964761BBC76800037BE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81964811BBC76800037BE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E819645D1BBC767F0037BE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81964671BBC76800037BE77 /* ViewController.swift in Sources */,
+				E81964961BBC77F80037BE77 /* PhotoViewController.swift in Sources */,
+				E819646D1BBC76800037BE77 /* Pandagrams_2.xcdatamodeld in Sources */,
+				E81964651BBC76800037BE77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81964741BBC76800037BE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E819647D1BBC76800037BE77 /* Pandagrams_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E819647F1BBC76800037BE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81964881BBC76800037BE77 /* Pandagrams_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E819647A1BBC76800037BE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E81964601BBC767F0037BE77 /* Pandagrams Clone */;
+			targetProxy = E81964791BBC76800037BE77 /* PBXContainerItemProxy */;
+		};
+		E81964851BBC76800037BE77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E81964601BBC767F0037BE77 /* Pandagrams Clone */;
+			targetProxy = E81964841BBC76800037BE77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E81964681BBC76800037BE77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81964691BBC76800037BE77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E81964701BBC76800037BE77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81964711BBC76800037BE77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E819648A1BBC76800037BE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E819648B1BBC76800037BE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E819648D1BBC76800037BE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pandagrams 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krk.Pandagrams-2";
+				PRODUCT_NAME = "Pandagrams Clone";
+			};
+			name = Debug;
+		};
+		E819648E1BBC76800037BE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pandagrams 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krk.Pandagrams-2";
+				PRODUCT_NAME = "Pandagrams Clone";
+			};
+			name = Release;
+		};
+		E81964901BBC76800037BE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pandagrams 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krk.Pandagrams-2Tests";
+				PRODUCT_NAME = "Pandagrams Clone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pandagrams Clone.app/Pandagrams Clone";
+			};
+			name = Debug;
+		};
+		E81964911BBC76800037BE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pandagrams 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krk.Pandagrams-2Tests";
+				PRODUCT_NAME = "Pandagrams Clone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pandagrams Clone.app/Pandagrams Clone";
+			};
+			name = Release;
+		};
+		E81964931BBC76800037BE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pandagrams 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krk.Pandagrams-2UITests";
+				PRODUCT_NAME = "Pandagrams Clone";
+				TEST_TARGET_NAME = "Pandagrams 2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E81964941BBC76800037BE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pandagrams 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krk.Pandagrams-2UITests";
+				PRODUCT_NAME = "Pandagrams Clone";
+				TEST_TARGET_NAME = "Pandagrams 2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E819645C1BBC767F0037BE77 /* Build configuration list for PBXProject "Pandagrams Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E819648A1BBC76800037BE77 /* Debug */,
+				E819648B1BBC76800037BE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E819648C1BBC76800037BE77 /* Build configuration list for PBXNativeTarget "Pandagrams Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E819648D1BBC76800037BE77 /* Debug */,
+				E819648E1BBC76800037BE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E819648F1BBC76800037BE77 /* Build configuration list for PBXNativeTarget "Pandagrams CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81964901BBC76800037BE77 /* Debug */,
+				E81964911BBC76800037BE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81964921BBC76800037BE77 /* Build configuration list for PBXNativeTarget "Pandagrams CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81964931BBC76800037BE77 /* Debug */,
+				E81964941BBC76800037BE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E819646B1BBC76800037BE77 /* Pandagrams_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E819646C1BBC76800037BE77 /* Pandagrams_2.xcdatamodel */,
+			);
+			currentVersion = E819646C1BBC76800037BE77 /* Pandagrams_2.xcdatamodel */;
+			path = Pandagrams_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E81964591BBC767F0037BE77 /* Project object */;
+}
